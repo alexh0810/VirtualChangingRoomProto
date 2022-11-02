@@ -192,7 +192,8 @@ img {
 /*.buttons class is buttons in .right-div*/
 .buttons {
   border: 1.5px solid rgba(112, 112, 112, 0.192);
-  background-color: rgba(209, 209, 209, 0.651);
+  background: url("woodtx.jpg");
+  background-size: cover;
   border-radius: 50%;
   cursor: pointer;
   align-items: center;
@@ -205,7 +206,7 @@ img {
 }
 
 .buttons:hover {
-  background-color: rgba(105, 190, 119, 0.5);
+  background-color: rgb(189, 126, 55);
   border-color: rgba(105, 190, 119, 0.671);
 }
 
@@ -270,7 +271,8 @@ img {
 
 /*Class of popups*/
 .material-symbols-outlined {
-  color: rgba(116, 116, 116, 0.651);
+  color: rgb(255, 255, 255);
+  mix-blend-mode: overlay;
 }
 
 .material-symbols-outlined.drag{
