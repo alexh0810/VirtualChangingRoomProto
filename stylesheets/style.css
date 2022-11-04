@@ -6,6 +6,8 @@ body {
   width: 95%;
   margin-left: auto;
   margin-right: auto;
+  background-image: url("lake.jpg");
+  background-size: cover;
 }
 
 * {
@@ -52,15 +54,19 @@ h2 {
 #img {  
   background-image: url("background.png");
   position: absolute;
-  height: 97%;
-  width: 75%;
-  border: 2px dotted rgba(128, 128, 128, 0.333);
+  height: 788;
+  width: 550;
   background-repeat: no-repeat;
   background-size: contain;
   border-radius: 4px;
   background-position: center;
   border-radius: 4px;
   /* z-index: 1;*/
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url("woodtx.jpg");
+  border-image-slice: 20;
+  border-image-repeat: round;
 }
 
 /*draggable and resizable images class*/
@@ -146,7 +152,9 @@ h2 {
   border-color: transparent;
   margin: 0 auto 10px ;
   display: block;
-  background-color: #adabab; 
+  /* background-color: #178b00;  */
+  background: url("woodtx.jpg");
+  background-size: cover;
   color: white;
   border-radius: 3px;
   border: none;
@@ -198,9 +206,26 @@ img {
   cursor: pointer;
   align-items: center;
   display: block;
-  width: 60px;
-  height: 60px;
-  margin: 0 auto 5px 0;
+  width: 70;
+  height: 70;
+  margin: 20 auto 5 0;
+  cursor: pointer;
+  z-index: 5;
+}
+
+/* WORK IN PROGRESS */
+.smallButton {
+  border: 1.5px solid rgba(112, 112, 112, 0.192);
+  background: url("woodtx.jpg");
+  background-size: cover;
+  border-radius: 50%;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 30;
+  height: 30;
+  margin: 20 auto 5 0;
   cursor: pointer;
   z-index: 5;
 }
@@ -271,8 +296,8 @@ img {
 
 /*Class of popups*/
 .material-symbols-outlined {
-  color: rgb(255, 255, 255);
-  mix-blend-mode: overlay;
+  color: rgba(255, 255, 255, 0.712);
+  mix-blend-mode: normal;
 }
 
 .material-symbols-outlined.drag{
