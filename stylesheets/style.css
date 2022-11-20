@@ -6,10 +6,15 @@ body {
   width: 95%;
   margin-left: auto;
   margin-right: auto;
+<<<<<<< HEAD
   background-image: url("background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   ;
+=======
+  background-image: url("lake.jpg");
+  background-size: cover;
+>>>>>>> 9ba43e3c9ca466fd7717e25d6b5832c7356e4b91
 }
 
 
@@ -88,12 +93,27 @@ h2 {
 /*div where draggable divs are created*/
 #img {
   position: absolute;
+<<<<<<< HEAD
   height: 97%;
   width: 70%;
+=======
+  height: 788;
+  width: 550;
+>>>>>>> 9ba43e3c9ca466fd7717e25d6b5832c7356e4b91
   background-repeat: no-repeat;
   background-size: contain;
   border-radius: 30px;
   background-position: center;
+<<<<<<< HEAD
+=======
+  border-radius: 4px;
+  /* z-index: 1;*/
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url("woodtx.jpg");
+  border-image-slice: 20;
+  border-image-repeat: round;
+>>>>>>> 9ba43e3c9ca466fd7717e25d6b5832c7356e4b91
 }
 
 /*draggable and resizable images class*/
@@ -182,10 +202,18 @@ h2 {
 .elements {
   margin: 0 auto 10px;
   display: block;
+<<<<<<< HEAD
   background: url("main-background.jpg");
   width: 60px;
   height: 60px;
   border-radius: 50%;
+=======
+  /* background-color: #178b00;  */
+  background: url("woodtx.jpg");
+  background-size: cover;
+  color: white;
+  border-radius: 3px;
+>>>>>>> 9ba43e3c9ca466fd7717e25d6b5832c7356e4b91
   border: none;
 }
 
@@ -219,6 +247,7 @@ h2 {
 }
 
 /*.buttons class is buttons in .right-div*/
+<<<<<<< HEAD
 
 .btn__container {
   margin: 1.5em;
@@ -246,6 +275,42 @@ h2 {
 
 /*.buttons:hover {
   background-color: rgba(105, 190, 119, 0.5);
+=======
+.buttons {
+  border: 1.5px solid rgba(112, 112, 112, 0.192);
+  background: url("woodtx.jpg");
+  background-size: cover;
+  border-radius: 50%;
+  cursor: pointer;
+  align-items: center;
+  display: block;
+  width: 70;
+  height: 70;
+  margin: 20 auto 5 0;
+  cursor: pointer;
+  z-index: 5;
+}
+
+/* WORK IN PROGRESS */
+.smallButton {
+  border: 1.5px solid rgba(112, 112, 112, 0.192);
+  background: url("woodtx.jpg");
+  background-size: cover;
+  border-radius: 50%;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 30;
+  height: 30;
+  margin: 20 auto 5 0;
+  cursor: pointer;
+  z-index: 5;
+}
+
+.buttons:hover {
+  background-color: rgb(189, 126, 55);
+>>>>>>> 9ba43e3c9ca466fd7717e25d6b5832c7356e4b91
   border-color: rgba(105, 190, 119, 0.671);
 }
 */
@@ -319,7 +384,8 @@ h2 {
 
 /*Class of popups*/
 .material-symbols-outlined {
-  color: rgba(116, 116, 116, 0.651);
+  color: rgba(255, 255, 255, 0.712);
+  mix-blend-mode: normal;
 }
 
 .material-symbols-outlined.drag {
